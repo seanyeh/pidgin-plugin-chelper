@@ -10,3 +10,6 @@ To install:
 2. Download/extract the CC-CEDICT dictionary file from
 http://www.mdbg.net/chindict/chindict.php?page=cc-cedict and put cedict_ts.u8
 into your pidgin plugin directory
+
+If the plugin doesn't show up in the plugins dialog, https://developer.pidgin.im/wiki/Scripting%20and%20Plugins#HowdoIusePerlscriptswithPidginFinch
+
