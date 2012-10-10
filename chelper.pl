@@ -159,7 +159,6 @@ sub is_chinese {
 
 sub receiving_im_msg_cb {
     my ($account, $who, $msg, $conv, $flags) = @_;
-    Purple::Debug::info("b64", "Before: accountname=". $accountname . "who=". $who . ", msg=" . $msg . "\n");
 
     # Return immediately if pinyin is disabled
     if(!Purple::Prefs::get_bool("/plugins/core/chelper/pinyin")){
