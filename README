@@ -1,0 +1,12 @@
+chelper.pl
+v. 0.1
+
+Simple perl plugin for the pidgin IM client to help with Chinese reading.
+Can provide a hanyu pinyin "translation" of Chinese messages, as well as
+converting between traditional and simplified characters.
+
+To install:
+1. Put chelper.pl into your pidgin plugin directory
+2. Download/extract the CC-CEDICT dictionary file from
+http://www.mdbg.net/chindict/chindict.php?page=cc-cedict and put cedict_ts.u8
+into your pidgin plugin directory
